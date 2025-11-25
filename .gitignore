@@ -1,0 +1,58 @@
+# SBT specific
+target/
+project/target/
+project/project/
+boot/
+lib_managed/
+src_managed/
+project/boot/
+.history
+.cache
+.lib/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+bin/
+.cache-main
+.cache-tests
+
+# VS Code
+.vscode/
+.metals/
+.bloop/
+metals.sbt
+
+# Mac
+.DS_Store
+
+# Test outputs
+test_run_dir/
+test-results/
+
+# Chisel/FIRRTL generated files
+*.fir
+*.v
+*.anno.json
+*.vcd
+*.lo.fir
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~
